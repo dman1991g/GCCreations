@@ -1,4 +1,30 @@
-Body{background-color:darkorange}
-p{font-style:bold;font-size:16pt;text-align:center;}
-h1{text-align:center;}
-p1{text-align:left;}
+Body{background-color:darkorange
+    }
+p{font-style:bold;font-size:16pt;text-align:center;
+ }
+h1{text-align:center;
+  }
+p1{text-align:left;
+  }
+.container{
+  display:flex;
+  justify-content: space around;
+  align-content: center;
+  max-height:500px;
+  height:500px;
+  padding:5px:
+}
+
+img{
+  max-width:100px;
+}
+
+.box1{
+  max-width:200px;
+  text-align: center;
+}
+
+.box2{
+  max-width:200px;
+  text-align: center;
+}
