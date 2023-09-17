@@ -4,9 +4,8 @@
   padding: 0;
 }
 
-Body{background-color:darkorange;
+Body{background-color:darkorange;margin-bottom: 5%;
     }
- {margin-bottom: 5%;}
 p{font-style:bold;font-size:16pt;text-align:center;
  }
 h1{text-align:center;
