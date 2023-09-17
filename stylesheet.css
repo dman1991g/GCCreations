@@ -1,12 +1,3 @@
-Body{background-color:darkorange;
-    }
-p{font-style:bold;font-size:16pt;text-align:center;
- }
-h1{text-align:center;
-  }
-p1{text-align:left;
-  }
-
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
