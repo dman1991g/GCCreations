@@ -1,20 +1,20 @@
 const images = document.querySelectorAll('#slider img');
 const previousImage = document.getElementById("prev");
 const nextImage = document.getElementById("next");
-
 let currentIndex = 0;
-
 function reset() {
   for (let i = 0; i < images.length; i++) {
     images[i].classList.remove('active');
   }
 }
-
 function initializeSlider() {
   reset();
   images[currentIndex].classList.add('active');
 }
-
+function initializeSlider() {
+  reset();
+  images[currentIndex].classList.add('active');
+}
 function slideLeft() {
   reset();
   currentIndex--;
@@ -32,7 +32,6 @@ function slideRight() {
   }
   images[currentIndex].classList.add('active');
 }
-
 initializeSlider();
 
 previousImage.addEventListener('click', function() {
@@ -42,3 +41,4 @@ previousImage.addEventListener('click', function() {
 nextImage.addEventListener('click', function() {
   slideRight();
 });
+
