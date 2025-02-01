@@ -4,26 +4,54 @@
   padding: 0;
 }
 
-Body{background-color:darkorange;
-     margin-bottom: 10%;
-    }
-p{font-style:bold;font-size:16pt;text-align:center;
- }
-h1{text-align:center;
-  }
-p1{text-align:left;
-  }
-  font-family: "Poppins", sans-serif;
-  color: #333;
-  transition: all 0.4s ease-in;
+Body {
+  background-color: darkorange;
+  margin-bottom: 10%;
 }
 
+p {
+  font-style: bold;
+  font-size: 16pt;
+  text-align: center;
+}
 
+h1 {
+  text-align: center;
+}
+
+p1 {
+  text-align: left;
+}
+
+font-family: "Poppins", sans-serif;
+color: #333;
+transition: all 0.4s ease-in;
+}
+
+/* Navigation Bar */
+.topnav {
+  text-align: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.topnav a {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.topnav a:hover {
+  color: #ff9800;
+}
+
+/* Additional Styles */
 h1 {
   text-align: center;
   margin-top: 1.25rem;
 }
-
 
 .container {
   display: grid;
@@ -34,13 +62,13 @@ h1 {
   text-align: center;
 }
 
-
-/* Write your CSS below */
+/* Slider */
 #slider {
   position: relative;
   width: 500px;
   height: 400px;
 }
+
 #slider img {
   position: absolute;
   top: 0;
@@ -50,9 +78,12 @@ h1 {
   opacity: 0;
   transition: all 1s ease-in-out;
 }
+
 #slider img.active {
   opacity: 1;
 }
+
+/* Buttons */
 button {
   position: absolute;
   top: 50%;
@@ -68,9 +99,11 @@ button {
   cursor: pointer;
   transition: all 200ms ease-in-out;
 }
+
 button:hover {
   background-color: steelblue;
 }
+
 button#prev {
   left: -35px;
   padding: 7px 17px 7px 15px;
@@ -80,7 +113,3 @@ button#next {
   right: -35px;
   padding: 7px 15px 7px 17px;
 }
-
-
-
-
