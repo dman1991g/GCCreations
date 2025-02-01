@@ -38,7 +38,7 @@ transition: all 0.4s ease-in;
 .topnav a {
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  color: black;
   text-decoration: none;
   margin: 0 15px;
 }
